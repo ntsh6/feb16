@@ -1,0 +1,9 @@
+#one function call by another function
+'''def Outer():
+    print("Outer function exectution")
+    def Inner():
+        print("Inner function execution")
+    return Inner
+a = Outer()
+a()
+'''
